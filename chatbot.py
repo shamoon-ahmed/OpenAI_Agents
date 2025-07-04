@@ -54,6 +54,7 @@ async def start():
 
     await cl.Message(content="Hey! We're Nice Sip Mineral Water Suppliers. How can we help you today?").send()
 
+# this is when the conversation starts
 @cl.on_message
 async def chat(message: cl.Message):
 
